@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Text } from 'react-native'
+import { colors } from '../assets'
 
 class Heading extends Component {
   render() {
@@ -9,7 +10,8 @@ class Heading extends Component {
 
 const styles = {
   heading: {
-    fontSize: 24
+    fontSize: 24,
+    color: colors.accent
   }
 }
 
