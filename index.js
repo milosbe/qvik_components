@@ -1,3 +1,5 @@
 import Heading from './src/heading'
 
-export Heading
+module.exports = {
+  Heading: Heading
+}
