@@ -1,6 +1,7 @@
+import Heading from './src/heading'
+
 const components = {
-  title: 'Qvik app',
-  subTitle: 'React Native'
+  Heading: Heading
 }
 
 module.exports = components
