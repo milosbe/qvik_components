@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { TextComponent } from 'react-native'
+import { Text } from 'react-native'
 
 class Heading extends Component {
   render() {
-    return <TextComponent style={styles.heading}>Qvik app</TextComponent>
+    return <Text style={styles.heading}>Qvik app</Text>
   }
 }
 
