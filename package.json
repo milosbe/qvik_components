@@ -1,6 +1,6 @@
 {
   "name": "qvik_components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Components for COCO design systems React Native app",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
     "url": "https://github.com/milosbe/qvik_components/issues"
   },
   "homepage": "https://github.com/milosbe/qvik_components#readme",
-  "dependencies": {}
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-native": "^0.57.3"
+  }
 }
