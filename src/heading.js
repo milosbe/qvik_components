@@ -3,7 +3,7 @@ import { Text } from 'react-native'
 
 class Heading extends Component {
   render() {
-    return <Text style={styles.heading}>Qvik app</Text>
+    return <Text style={styles.heading}>{this.props.children}</Text>
   }
 }
 
