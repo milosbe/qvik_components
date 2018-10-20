@@ -4,7 +4,11 @@ import { colors } from '../assets'
 
 class Heading extends Component {
   render() {
-    return <Text style={styles.heading}>{this.props.children}</Text>
+    return (
+      <Text style={{ ...styles.heading, ...this.props.style }}>
+        {this.props.children}
+      </Text>
+    )
   }
 }
 
