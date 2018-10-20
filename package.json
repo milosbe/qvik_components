@@ -1,6 +1,6 @@
 {
   "name": "qvik_components",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Components for COCO design systems React Native app",
   "main": "index.js",
   "scripts": {
