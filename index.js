@@ -1,4 +1,4 @@
-const components {
+const components = {
   title: 'Qvik app',
   subTitle: 'React Native'
 }
